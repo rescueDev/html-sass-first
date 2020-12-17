@@ -12587,13 +12587,23 @@ console.log("provaJS");
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: "#app",
   data: {
+    isVisible: false,
     navbar: [{
       name: "Home"
     }, {
       name: "About"
     }, {
       name: "Contact"
-    }]
+    }],
+    header: [{
+      name: "SASS"
+    }],
+    footer: [{}]
+  },
+  methods: {
+    hoverHeader: function hoverHeader() {
+      this.isVisible = !this.isVisible;
+    }
   }
 });
 

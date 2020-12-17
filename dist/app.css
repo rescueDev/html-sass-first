@@ -32,6 +32,18 @@ nav {
   background-color: aqua;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+nav li {
+  list-style: none;
+  margin: 10px;
+  width: 30%;
+}
+
 main {
   display: flex;
   justify-content: center;

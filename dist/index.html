@@ -10,14 +10,15 @@
     <div id="app">
       <!-- Header -->
       <header>
-        <h1>HEADER</h1>
+        <h1 @mouseover="hoverHeader" @mouseleave="hoverHeader">HEADER</h1>
+        <p v-show="isVisible" v-for="voci in header">{{voci.name}}</p>
       </header>
       <!-- Navbar -->
       <nav>
+        <h1>NAVBAR</h1>
         <ul>
           <li v-for="voci in navbar">{{voci.name}}</li>
         </ul>
-        <h1>NAVBAR</h1>
       </nav>
       <!-- Main section -->
       <main>

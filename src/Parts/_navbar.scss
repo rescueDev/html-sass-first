@@ -3,4 +3,14 @@ nav {
   height: 50px;
   border: 1px solid black;
   background-color: $bgNavBar;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+  li {
+    list-style: none;
+    margin: 10px;
+    width: 30%;
+  }
 }
