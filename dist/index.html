@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <div class="container">
+    <div id="app">
       <!-- Header -->
       <header>
         <h1>HEADER</h1>
       </header>
       <!-- Navbar -->
       <nav>
+        <ul>
+          <li v-for="voci in navbar">{{voci.name}}</li>
+        </ul>
         <h1>NAVBAR</h1>
       </nav>
       <!-- Main section -->
