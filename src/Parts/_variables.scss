@@ -9,3 +9,9 @@ $bgContent: brown;
 
 /* Colore background Footer */
 $bgFooter: black;
+
+@mixin flex-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

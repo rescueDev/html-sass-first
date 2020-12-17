@@ -1,0 +1,10 @@
+main {
+  @include flex-display;
+  background-color: $bgContent;
+  aside {
+    width: 50%;
+    min-height: 400px;
+    border: 1px solid black;
+    @include flex-display;
+  }
+}

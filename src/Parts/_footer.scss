@@ -1,0 +1,6 @@
+footer {
+  @include flex-display;
+  min-height: 150px;
+  background-color: $bgFooter;
+  color: white;
+}

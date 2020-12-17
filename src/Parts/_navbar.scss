@@ -1,4 +1,5 @@
 nav {
+  @include flex-display;
   height: 50px;
   border: 1px solid black;
   background-color: $bgNavBar;
